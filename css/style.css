@@ -16,7 +16,7 @@ body{
     color: white;
     margin: -8px 5px 5px -8px;
     padding: 0;
-    width: 275px;
+    width: 15%;
     background-color: #f1f1f1;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
@@ -44,17 +44,18 @@ body{
 .logo{
     background-image: url(../img/download.jfif);
     background-repeat: no-repeat;
-    padding: 20px;
+    background-size: 100%;
+    padding: 10%;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 200%;
 }
 
 li.copyright{
     font-size: 16px;
     color:gray;
-    padding: 16px;
-    padding-bottom: 150px;
+    padding: 0.5em;
+    padding-bottom: 60%;
     position: absolute;
     bottom: 0;
 }
@@ -64,10 +65,11 @@ li.copyright{
     bottom: 0;
     margin: auto;
     border-radius: 5px;
+    width: 100%;
 }
 
 .maintext{
-    margin: 5px 5px 5px 300px;
+    margin: 5px 5px 5px 17%;
     padding: 5px;
     font-size: 25px;
     font-weight: bold;
@@ -89,4 +91,5 @@ li.copyright{
     border-radius: 50px;
     border: 1px solid gray;
     margin: 10px;
+    max-width: 60%;
 }
