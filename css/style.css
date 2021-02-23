@@ -93,3 +93,15 @@ li.copyright{
     margin: 10px;
     max-width: 60%;
 }
+
+#image3{
+    float: left;
+    border-radius: 50px;
+    border: 1px solid gray;
+    margin: 10px;
+    max-width: 60%;
+}
+
+.linebreak{
+    clear: both;
+}
