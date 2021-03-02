@@ -1,11 +1,11 @@
-body{
+html, body{
     background-image: url(../img/image1.jpg);
+    margin: -11px 0px;
 }
 
 .sidebar .active{
     background-color:rgba(1, 161, 1, 0.849);
-    margin: -2px 0px 0px -2px;
-    color:white;
+    margin: 0px;
     padding: 20px 16px;
 }
 
@@ -14,9 +14,8 @@ body{
     padding: 2px;
     background-color: grey;
     color: white;
-    margin: -8px 5px 5px -8px;
     padding: 0;
-    width: 15%;
+    width: 10%;
     background-color: #f1f1f1;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
@@ -26,7 +25,7 @@ body{
 
 .sidebar ul li {
     display: block;
-    margin: 0px 0px 0px -2px;
+    margin: 0px;
 }
 
 .sidebar ul li a{
@@ -69,7 +68,7 @@ li.copyright{
 }
 
 .maintext{
-    margin: 5px 5px 5px 17%;
+    margin: 5px 5px 5px 11%;
     padding: 5px;
     font-size: 25px;
     font-weight: bold;
