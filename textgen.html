@@ -6,14 +6,17 @@
     </title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body onload="javascript:showText();">
+
+<script type="text/javascript" src="js/script1.js"></script>
+
 <div class="sidebar">
     <ul>
         <li class="logo">Lori</li>
         <li><a id=Main href="index.html">Головна</a></li>
-        <li><a id="red" href="red.html">Червоний</a></li>
+        <!-- <li><a id="red" href="red.html">Червоний</a></li>
         <li><a id="green" href="green.html">Зелений</a></li>
-        <li><a id="blue" href="blue.html">Синій</a></li>
+        <li><a id="blue" href="blue.html">Синій</a></li> -->
         <li><a id="entopic" href="entopic.html">English topic</a></li>
         <li class="active">Generator</li>
         <li class="copyright">Copyright © Loireman.<br>All rights reserved.</li>
@@ -22,6 +25,8 @@
 </div>
 <div class="maintext">
     <h2>Generator <span id="a1">Цитат</span></h2>
+    <input type="button" class="button" value="Sgenerit цитату" onclick="document.getElementById('rtext').innerHTML = randomtext();">
+    <p id="rtext"></p>
 </div>
 </body>
 </html>

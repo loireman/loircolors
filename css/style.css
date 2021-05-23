@@ -104,3 +104,14 @@ li.copyright{
 .linebreak{
     clear: both;
 }
+
+.button{
+    text-decoration: none;
+    padding: 1%;
+    background-color: lightgray;
+    margin: 0;
+    width: 10%;
+    height: 3%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
